@@ -15,5 +15,5 @@ module.exports.run = async (bot,message,args) => {
     bot.send(enbed);
 };
 module.exports.help = {
-    name: "shop"
+    name: "donate"
 };
