@@ -9,6 +9,7 @@ module.exports.run = async (bot,message,args) => {
     .addField("***say***", "*.say <message>*")
 	.addField("***warn***", "*.warn <user>*")
 	.addField("***unwarn***", "*.unwarn <user>*")
+        .addField("***Report on bot(and he bugs) on developer gmail***", ".mail <text>")
 	.addField("***report***", "*.report <user> <reason>*");
     
     bot.send(enbed);
@@ -30,7 +31,7 @@ module.exports.run = async (bot,message,args) => {
     .setColor('#00f815')
     .addField("***Set Shop(Only server-admin can)***", "*.setshop roleid(Например: 88228595965545) цена*")
     .addField("***Shop Name(Only server-admin can)***", "*.shopname name*")
-    .addField("***Buy role***", "*.buy*")
+    .addField("***Buy role***", "*.shop*")
     
     bot.send(enbedd);
     
@@ -56,6 +57,7 @@ module.exports.run = async (bot,message,args) => {
     .addField("***Profile***", "*.me*")
     .addField("***serverinfo***", "*.serverinfo*")
     .addField("***help***", "*.help*")
+    .addField("***Donate***", ".donate")
     
     bot.send(enbed3);
     
