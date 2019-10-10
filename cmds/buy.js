@@ -47,5 +47,5 @@ emess.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] })
 };
 
 module.exports.help = {
-    name: "buy"
+    name: "shop"
 };
